@@ -1,0 +1,13 @@
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+        width=305px;
+     height=312px;
+     border: 2px solid black
+     id="myPicture";
+     alt="some image";}
+h1 {
+   text-align: center 
+       Color: blue 
+}
