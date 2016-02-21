@@ -1,0 +1,35 @@
+<table>
+
+<tr>
+
+<!-- the NAME of the image is used to load the new images-->
+
+<td>
+
+<img src="vulcano.gif" name="theImage" id="theImage" alt="Slide Show" height="120" width="120" />
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<form>
+
+<p>
+
+<!-- the onClick calls our function newImage()-->
+
+<input type="button" value="Random Image" onclick="newImage()" />
+
+</p>
+
+</form>
+
+</td>
+
+</tr>
+
+</table>

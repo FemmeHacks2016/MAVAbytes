@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <h1><center>SLEEPING OWLS OWLS OWLS</center></h1>
+	<h2> <center>Owls</center></h1>
+	<h3> <center> On one hand, the world is a stressful place.
+	<br> On the other hand, owls exist. 
+	<br> Take some time out of your day. 
+	<br> Observe these majestic and fluffy creatures.<br>
+	<br>
+	<br>Haiku
+	<br>Do you hate rodents? <br>
+	Then you should love all these owls!<br>
+	Refresh this page for more owls.</center></h2>
+	<br><h3><center>Click <a href="http://www.hungryowl.org/about_hop/donate.html">here</a> to donate to help injured owls.</center></h3>
+    <body>
+	<embed src="Owlsound.mp3" autostart="true" loop="true" width="10" height="10">
+   <script type="text/javascript">
+ var imlocation = "./";
+ var currentdate = 0;
+ var image_number = 0;
+ function ImageArray(n) {
+   this.length = n;
+   for (var i =1; i <= n; i++) {
+     this[i] = ' '
+   }
+ }
+ image = new ImageArray(11)
+ image[0] = 'nowl1.jpg'
+ image[1] = 'nowl2.jpg'
+ image[2] = 'nowl3.jpg'
+ image[3] = 'nowl4.jpg'
+ image[4] = 'nowl5.jpg'
+ image[5] = 'nowl6.jpg'
+ image[6] = 'nowl7.jpg'
+ image[7] = 'nowl8.jpg'
+ image[8] = 'nowl9.jpg'
+ image[9] = 'nowl10.jpg'
+ image[10] = 'nowl11.jpg'
+ 
+
+ link = new Array(11)
+ link[0] = "https://www.allaboutbirds.org/guide/Eastern_Screech-Owl/id"
+ link[1] = "https://www.allaboutbirds.org/guide/Northern_Saw-whet_Owl/lifehistory"
+ link[2] = "https://www.allaboutbirds.org/guide/Long-eared_Owl/id"
+ link[3] = "https://www.allaboutbirds.org/guide/Northern_Saw-whet_Owl/lifehistory"
+ link[4] = "https://www.allaboutbirds.org/guide/Snowy_Owl/id"
+ link[5] = "https://www.allaboutbirds.org/guide/Great_Horned_Owl/id"
+ link[6] = "https://www.allaboutbirds.org/guide/Barn_Owl/id"
+ link[7] = "https://www.allaboutbirds.org/guide/Long-eared_Owl/id"
+ link[8] = "http://www.arkive.org/eurasian-eagle-owl/bubo-bubo/"
+ link[9] = "https://www.allaboutbirds.org/guide/Great_Gray_Owl/id"
+ link[10] = "https://www.allaboutbirds.org/guide/Flammulated_Owl/id"
+
+ var rand = 60/image.length
+ function randomnumber(){ 
+ image_number=Math.floor(Math.random()*image.length)
+ return(image_number)
+ }
+ var x=randomnumber()
+ /*function randomimage() {
+ 	return(image[x])
+ }
+ function randomlink() {
+ 	return(link[x])
+ }*/ 
+ document.write("<center><img style='border:10px solid #000000; height:300px' src='" + imlocation + image[x]+ "'></center>");
+ document.write("<h3><center>Click <a href=" + link[x] + ' target="_blank">here</a> to learn more!</center></h3>');
+//--
+</script>
+  <link rel="imagegen" href="imagegen.css" type="text/css">
+ <br><h3><center><a href="imagegen.html">Awaketime.</a></center></h3>
+</body>
+</html>
+<style>
+body {
+    background-color: black;
+}
+.owl {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+        width=305px;
+     height=312px;
+     border: 2px solid black
+     id="myPicture";
+     alt="some image";}
+h1 { 
+       color: #F5FFFA; 
+	font-size: 50px;
+	font-family:"Georgia", serif;
+}
+
+h2 {
+	color: #F5FFFA;
+	font-size: 20px;
+	font-family: Georgia", serif;
+}
+
+h3 {
+	color: #F5FFFA;
+	font-size: 15px;
+	font-family:"Georgia", serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+	border: 20px solid #000080;
+
+}
+}
+.owl{
+	height: 200px
+	width: 200px
+}
+a{
+	color: #009acd;
+}
+</style>
